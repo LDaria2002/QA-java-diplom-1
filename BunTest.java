@@ -21,8 +21,8 @@ public class BunTest{
     @Test
     public void testGetPrice(){
         float actual;
-        Bun bun = new Bun("Булочка с маком", 240);
+        Bun bun = new Bun("Булочка с маком", 1);
        actual = bun.getPrice();
-        assertEquals(200, actual, 240);
+        assertEquals(1, actual, 0);
     }
 }
